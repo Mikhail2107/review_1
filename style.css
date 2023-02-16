@@ -32,7 +32,7 @@ body {
     background-repeat: no-repeat;
     width:40px;
     height: 40px;
-    padding: 20px;
+    padding: 10px 20px;
     margin-right: 16px;
 }
 .nav__group {
@@ -56,7 +56,7 @@ body {
     background-image: url("navbar/call.svg");
     background-repeat: no-repeat;
     margin-right: 5px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .nav__chat {
     width:40px;
@@ -64,12 +64,12 @@ body {
     background-image: url("navbar/chat.svg");
     background-repeat: no-repeat;
     margin-right: 5px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .nav__profile {
     background-image: url("navbar/profile.svg");
     background-repeat: no-repeat;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .nav__status {
     display: flex;
@@ -85,14 +85,14 @@ body {
     text-decoration: none;
     color: #7E7E82;
     background: url("navbar/repair.svg") no-repeat;
-    padding: 20px;
+    padding: 10px 20px;
     margin-top: 0px;
 }
 .nav__checkstatus {
     min-width:40px;
     height: 40px;
     background: url("navbar/checkstatus.svg") no-repeat;
-    padding: 20px;
+    padding: 10px 20px;
     }
 main {
     width: 100%;    
