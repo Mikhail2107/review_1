@@ -160,7 +160,7 @@ h1 {
     border:0;
 }
 .main__image-about {
-    background: url("navbar/_MG_3223.png") no-repeat;
+    background: url("../navbar/_MG_3223.png") no-repeat;
     width:100%;
     height: 20em;
     background-size: 100% auto;
@@ -257,25 +257,19 @@ h1 {
         background: url("navbar/checkstatus.svg") no-repeat;
         line-height: 40px;
         padding: 13px 65px 13px 20px;
-        background-position: 155px;
-        
-   
-    }
+        background-position: 155px;      }
     .main {
         display: flex;
     }
     .main__text-about {
         width:40%;
         float:left;
-        padding: 24px 16px 16px;
-    
-    }
+        padding: 24px 16px 16px;}
     .main__text-about span{
         display: contents;
     }
     .main__image-about {
         width: 50%;
-        /* margin: 0; */
         float:right;
     }
 }
