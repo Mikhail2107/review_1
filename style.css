@@ -305,6 +305,9 @@ body {
         font-weight: bold;
 
     }
+    .main__slider {
+        overflow:auto;
+    }
     .main__text {
         width:40%;
         float:left;
