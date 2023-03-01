@@ -172,8 +172,8 @@ body {
     .header__search {
         background: url("images/search.svg") no-repeat;
         border: none;
-        position: absolute;
-        right:24px;
+        position: relative;
+        right:-24px;
     }
     .main__under-title{
         text-decoration: none;
