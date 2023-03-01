@@ -146,9 +146,11 @@ body {
     width: 100%;
 }
 @media (min-width:320px) {
-    body {
+    menu-body {
         width: 320px;
         height: 1024px;
+        top:0;
+        left:0;
     }
     .header {
         width: 100%;
