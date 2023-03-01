@@ -152,8 +152,7 @@ body {
         border-bottom: 1px solid #D9FFF5;
     }
     .navigation__service {
-        /* display: none; */
-        overflow: hidden;
+        visibility: hidden;
     }
 }
 @media (min-width:550px) and (max-width:1119px) {
