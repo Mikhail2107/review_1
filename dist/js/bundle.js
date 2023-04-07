@@ -169,6 +169,9 @@ function getModalCall() {
   document.getElementById("modal-call__btn").addEventListener("click", function () {
     document.getElementById("modal-call").classList.add("show");
   });
+  document.getElementById("menu-call__btn").addEventListener("click", function () {
+    document.getElementById("modal-call").classList.add("show");
+  });
   document.getElementById("close-btn").addEventListener("click", function () {
     document.getElementById("modal-call").classList.remove("show");
   });
@@ -196,6 +199,9 @@ function getModalCall() {
 __webpack_require__.r(__webpack_exports__);
 function getModalFeedback() {
   document.getElementById("modal-feedback__btn").addEventListener("click", function () {
+    document.getElementById("modal-feedback").classList.add("show");
+  });
+  document.getElementById("menu-feedback__btn").addEventListener("click", function () {
     document.getElementById("modal-feedback").classList.add("show");
   });
   document.getElementById("feedback-close-btn").addEventListener("click", function () {
