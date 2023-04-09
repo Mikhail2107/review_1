@@ -146,12 +146,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+ // import {brandsSliderDestroy, swiper, brandsSliderInit} from './swiperPrice.js';
 
 _js_modal_call_js__WEBPACK_IMPORTED_MODULE_2__["default"];
 _js_modal_menu_js__WEBPACK_IMPORTED_MODULE_1__["default"];
 _modal_feedback_js__WEBPACK_IMPORTED_MODULE_3__["default"];
 _swiper_js__WEBPACK_IMPORTED_MODULE_4__["default"];
-_button_hidden_js__WEBPACK_IMPORTED_MODULE_5__["default"];
+_button_hidden_js__WEBPACK_IMPORTED_MODULE_5__["default"]; // brandsSliderDestroy;
+// brandsSliderInit;
+
 console.log('Works!');
 
 /***/ }),
@@ -168,12 +171,15 @@ __webpack_require__.r(__webpack_exports__);
 function getModalCall() {
   document.getElementById("modal-call__btn").addEventListener("click", function () {
     document.getElementById("modal-call").classList.add("show");
+    document.body.style.overflow = 'hidden';
   });
   document.getElementById("menu-call__btn").addEventListener("click", function () {
     document.getElementById("modal-call").classList.add("show");
+    document.body.style.overflow = 'hidden';
   });
   document.getElementById("close-btn").addEventListener("click", function () {
     document.getElementById("modal-call").classList.remove("show");
+    document.body.style.overflow = '';
   });
   document.querySelector("#modal-call .call__box").addEventListener('click', function (event) {
     event._isClickWithInModal = true;
@@ -181,6 +187,7 @@ function getModalCall() {
   document.getElementById("modal-call").addEventListener('click', function (event) {
     if (event._isClickWithInModal) return;
     event.currentTarget.classList.remove('show');
+    document.body.style.overflow = '';
   });
 }
 
@@ -200,13 +207,15 @@ __webpack_require__.r(__webpack_exports__);
 function getModalFeedback() {
   document.getElementById("modal-feedback__btn").addEventListener("click", function () {
     document.getElementById("modal-feedback").classList.add("show");
+    document.body.style.overflow = 'hidden';
   });
   document.getElementById("menu-feedback__btn").addEventListener("click", function () {
     document.getElementById("modal-feedback").classList.add("show");
+    document.body.style.overflow = 'hidden';
   });
   document.getElementById("feedback-close-btn").addEventListener("click", function () {
     document.getElementById("modal-feedback").classList.remove("show");
-    console.log('close');
+    document.body.style.overflow = '';
   });
   document.querySelector("#modal-feedback .feedback__box").addEventListener('click', function (event) {
     event._isClickWithInModal = true;
@@ -214,6 +223,7 @@ function getModalFeedback() {
   document.getElementById("modal-feedback").addEventListener('click', function (event) {
     if (event._isClickWithInModal) return;
     event.currentTarget.classList.remove('show');
+    document.body.style.overflow = '';
   });
 }
 
