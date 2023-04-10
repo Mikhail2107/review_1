@@ -56,15 +56,15 @@
 .brands__button {
     margin: 16px 16px 16px auto;
     float: right;
-    background:url(img/dropdown.png) no-repeat 50% 50%;
+    background:url(/src/img/dropdown.png) no-repeat 50% 50%;
 }
 .tech__button {
   margin: 16px 16px 16px auto;
   float: right;
-  background:url(img/dropdown.png) no-repeat 50% 50%;
+  background:url(/src/img/dropdown.png) no-repeat 50% 50%;
   position: absolute;
   bottom: 5px;
-  right:5px ;
+  right:5px;
 }
 .button {
     border: none;
