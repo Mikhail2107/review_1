@@ -141,20 +141,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modal_feedback_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modal__feedback.js */ "./src/js/modal__feedback.js");
 /* harmony import */ var _swiper_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper.js */ "./src/js/swiper.js");
 /* harmony import */ var _button_hidden_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./button--hidden.js */ "./src/js/button--hidden.js");
+/* harmony import */ var _read_more_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./read__more.js */ "./src/js/read__more.js");
 
 
 
 
 
- // import {brandsSliderDestroy, swiper, brandsSliderInit} from './swiperPrice.js';
+
 
 _js_modal_call_js__WEBPACK_IMPORTED_MODULE_2__["default"];
 _js_modal_menu_js__WEBPACK_IMPORTED_MODULE_1__["default"];
 _modal_feedback_js__WEBPACK_IMPORTED_MODULE_3__["default"];
 _swiper_js__WEBPACK_IMPORTED_MODULE_4__["default"];
-_button_hidden_js__WEBPACK_IMPORTED_MODULE_5__["default"]; // brandsSliderDestroy;
-// brandsSliderInit;
-
+_button_hidden_js__WEBPACK_IMPORTED_MODULE_5__["default"];
+_read_more_js__WEBPACK_IMPORTED_MODULE_6__["default"];
 console.log('Works!');
 
 /***/ }),
@@ -257,6 +257,37 @@ function getModalMenu() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (getModalMenu());
+
+/***/ }),
+
+/***/ "./src/js/read__more.js":
+/*!******************************!*\
+  !*** ./src/js/read__more.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var textBox = document.querySelector('.main__text');
+var text = textBox.querySelector('p');
+var btnMore = textBox.querySelector('.main__read-more');
+
+function readMore() {
+  btnMore.addEventListener('click', function (event) {
+    textBox.classList.toggle('main__text--show');
+    event.target.classList.toggle('read__more');
+    console.log(btnMore);
+
+    if (event.target.classList.contains('read__more')) {
+      event.target.textContent = 'Скрыть';
+    } else {
+      event.target.textContent = 'Читать далее';
+    }
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (readMore());
 
 /***/ }),
 
