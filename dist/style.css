@@ -56,12 +56,12 @@
 .brands__button {
     margin: 16px 16px 16px auto;
     float: right;
-    background:url(/src/img/dropdown.png) no-repeat 50% 50%;
+    background:url(img/dropdown.png) no-repeat 50% 50%;
 }
 .tech__button {
   margin: 16px 16px 16px auto;
   float: right;
-  background:url(/src/img/dropdown.png) no-repeat 50% 50%;
+  background:url(img/dropdown.png) no-repeat 50% 50%;
   position: absolute;
   bottom: 5px;
   right:5px ;
@@ -79,7 +79,7 @@
     cursor: pointer;
 }
 .button--hidden {
-    background:url(/src/img/icon_show.svg) no-repeat 10px 5px;
+    background:url(img/icon_show.svg) no-repeat 10px 5px;
 }
 @media (min-width:320px) and (max-width:767.98px){
     .swiper-pagination {
@@ -111,7 +111,7 @@
         margin: 12px 10px;
     }
     .button--visible{
-        background: url(/src/img/icon_hide.svg)  no-repeat 10px 5px;
+        background: url(img/icon_hide.svg)  no-repeat 10px 5px;
     }
     .slider--show{
         overflow:visible;
@@ -122,7 +122,6 @@
 .button-styles {
     width:40px;
     height:40px;
-    /* padding: 16px; */
     margin-right: 16px;
     border-radius: 20px;
     border-style: none;
@@ -175,7 +174,7 @@
   position: absolute;
   top: 8px;
   left: 8px;
-  background: #FF3E79 url(/src/img/close.svg) no-repeat 50% 50%;
+  background: #FF3E79 url(img/close.svg) no-repeat 50% 50%;
   padding: 5px;
   cursor: pointer;
 }
